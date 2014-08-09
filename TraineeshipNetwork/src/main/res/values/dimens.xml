@@ -6,5 +6,7 @@
     <dimen name="text_view_default">50dp</dimen>
     <dimen name="text_view_size">20sp</dimen>
     <dimen name="big_text_size">50sp</dimen>
+    <dimen name="news_image_size">100dp</dimen>
+    <dimen name="news_padding">20dp</dimen>
 
 </resources>

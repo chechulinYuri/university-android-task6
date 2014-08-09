@@ -3,6 +3,7 @@ package com.noveo.traineeship.network.services;
 import android.app.Activity;
 import android.app.IntentService;
 import android.content.Intent;
+import android.util.Log;
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,6 +25,8 @@ public class NumberService extends IntentService{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        Log.d("asd", "asd");
 
         publish(value + 100);
     }
